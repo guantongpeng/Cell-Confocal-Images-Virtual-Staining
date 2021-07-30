@@ -8,32 +8,7 @@ import numpy as np
 def self_attention(inputs, total_key_filters, total_value_filters, output_filters,
 		num_heads, training, dimension, layer_type, name, dropout_rate=0.0, use_softmax=True,
 		use_bias=None):
-	"""Multihead scaled-dot-product attention with input/output transformations.
 	
-	Args:
-		inputs: a Tensor with shape [batch, (d,) h, w, channels]
-		total_key_filters: an integer. Note that queries have the same number 
-			of channels as keys.
-		total_value_filters: an integer
-		output_filters: an integer
-		num_heads: an integer dividing total_key_filters and total_value_filters
-		training: a boolean for dropout
-		dimension: a string, dimension of inputs/outputs -- 2D, 3D
-		layer_type: a string, type of this layer -- SAME, DOWN, UP, UP4
-		name: a string
-		dropout_rate: a float between 0.0 and 1.0. No dropout if dropout_rate = 0.0
-		use_softmax: a boolean deciding whether to use softmax. Note that use_softmax = False
-			will automatically set dropout_rate = 0.0
-		use_bias: a boolean deciding whether to use the bias term in input/output transformations
-	Returns:
-		A Tensor of shape [batch, (_d,) _h, _w, output_filters]
-	
-	Raises:
-		ValueError: if the total_key_filters or total_value_filters are not divisible
-			by the number of attention heads.
-		ValueError: if dimension is not one of ['2D', '3D'].
-		ValueError: if layer_type is not one of ['SAME', 'DOWN', 'UP', 'UP4'].
-	"""
 	if total_key_filters % num_heads != 0:
 		raise ValueError("Key depth (%d) must be divisible by the number of "
 						"attention heads (%d)." % (total_key_filters, num_heads))
