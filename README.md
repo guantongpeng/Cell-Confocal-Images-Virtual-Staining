@@ -13,21 +13,21 @@
 
 #### 数据集
 
-数据集下载地址：http://downloads.allencell.org/publication-data/label-free-prediction/index.html
-数据集名称与图像数据对应关系：
-nucleoli ---- fibrillarin
-nuclear envelope ---- lamin_b1 
-microtubule images ---- alpha_tubulin
-actin filament ---- beta_actin 
-mitochondria ---- tom20 
-cell membrane ---- membrane_caax_63x
-endoplasmic reticulum ---- sec61_beta
-dna ---- myosin_iib
-(DIC) nuclear envelope ---- dic_lamin_b1
-actomyosin bundles ---- myosin_iib
-tight junctions ---- zo1
-golgi ---- st6gal1
-desmosome ---- desmoplakin
+数据集下载地址：http://downloads.allencell.org/publication-data/label-free-prediction/index.html \
+数据集名称与图像数据对应关系：\
+nucleoli ---- fibrillarin \
+nuclear envelope ---- lamin_b1 \
+microtubule images ---- alpha_tubulin\
+actin filament ---- beta_actin \
+mitochondria ---- tom20 \
+cell membrane ---- membrane_caax_63x\
+endoplasmic reticulum ---- sec61_beta\
+dna ---- myosin_iib\
+(DIC) nuclear envelope ---- dic_lamin_b1\
+actomyosin bundles ---- myosin_iib\
+tight junctions ---- zo1\
+golgi ---- st6gal1\
+desmosome ---- desmoplakin\
 
 ------
 
