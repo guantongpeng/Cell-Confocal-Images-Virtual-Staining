@@ -1,6 +1,8 @@
-<div align='center' ><font color="#0000ff" size='10'>基于深度学习的无标记细胞图像虚拟染色</font></div>
+<p align="center">
+<img align="center" src="LOGO.png", width=1600>
+<p>
 
-
+## 基于飞桨的无标记细胞图像虚拟染色
 -------
 
 本项目是基于飞桨框架的细胞虚拟染色技术实现，采用的模型是基于自注意力机制的3D Res-UNet。
