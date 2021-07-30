@@ -1,8 +1,11 @@
-### 虚拟染色
+<div align='center' ><font color="#0000ff" size='10'>基于深度学习的无标记细胞图像虚拟染色</font></div>
+
 
 -------
 
-本项目是基于飞桨框架的细胞虚拟染色技术实现，采用的模型是基于自注意力机制的3D Res-UNet。项目实现参考了：https://github.com/AllenCellModeling/pytorch_fnet/tree/release_1以及飞桨官方平台：https://www.paddlepaddle.org.cn/
+本项目是基于飞桨框架的细胞虚拟染色技术实现，采用的模型是基于自注意力机制的3D Res-UNet。
+项目实现参考了：https://github.com/AllenCellModeling/pytorch_fnet/tree/release_1
+以及飞桨官方平台：https://www.paddlepaddle.org.cn/
 
 --------
 
